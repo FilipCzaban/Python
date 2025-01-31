@@ -8,3 +8,5 @@ When i dont know im trying to work with AI, solve problem with her and complete 
 I add cca three codes weekly.
 
 Codes have a name in czech.
+
+My second repositor is completely same :DDD, here is url: https://github.com/FilipCzaban/pth
