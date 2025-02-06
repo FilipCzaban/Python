@@ -1,12 +1,15 @@
 # Python easy projects
 Author - Filip Czaban
 
-These are random codes that make me try to work in python, the codes is easy.
+toto jsou náhodné kódy, díky kterým se snažím pracovat v pythonu, kódy jsou snadné.
 
-When i dont know im trying to work with AI, solve problem with her and complete codes, I often consulted her, when i had faul, or didn't know, mainly with bigger codes.
+přidavám cca 3 kódy týdně
 
-I add cca three codes weekly.
 
-Codes have a name in czech.
 
-My second repositor is completely same :DDD, here is url: https://github.com/FilipCzaban/pth
+
+
+
+
+
+
