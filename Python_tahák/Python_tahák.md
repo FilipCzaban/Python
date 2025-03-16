@@ -143,17 +143,15 @@ vek = 15
 print("Jméno:", jmeno, "| Věk:", vek) # Výstup: Jméno: Petr | Věk: 15
 
 # Příklad 2 (f_string)
-print(f"Ahoj, {jmeno}! Je ti {vek} let.")  
-# Výstup: Ahoj, Filip! Je ti 15 let.
-
+print(f"Ahoj, {jmeno}! Je ti {vek} let.")  # Výstup: Ahoj, Filip! Je ti 15 let.
 
 # Příklad 3 (end)
 print("První část...", end=" ")
 print("Druhá část.") # Výstup: První část... Druhá část(Na druhém řádku).
 
 # Příklad 4 (sep) 
-print("Jablko", "Banán", "Hruška", sep=" - ")
-# Výstup: Jablko - Banán - Hruška
+print("Jablko", "Banán", "Hruška", sep=" - ") # Výstup: Jablko - Banán - Hruška
+
 ```
 
 ## Vstupy 📥
