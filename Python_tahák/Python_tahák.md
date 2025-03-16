@@ -36,7 +36,11 @@ f = 10 % 3   # Zbytek po dělení
 g = 2 ** 3   # Mocnina
 
 import math
-math.sqrt(9) # Odmocnina
+math.sqrt(9) # Odmocnina 
+
+x = 16
+odmocnina = pow(x, 0.5)
+print(odmocnina)  # Výstup: 4.0
 ```
 
 ## Podmínky a logické operace 🤔
