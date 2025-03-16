@@ -160,7 +160,7 @@ print("Jablko", "Banán", "Hruška", sep=" - ")
 ***Vstupy v Pythonu slouží k získávání informací od uživatele. Nejčastěji se používá funkce `input()`, která umožňuje uživateli zadat text a vrátí tento text jako řetězec.***
 ```python
 jmeno = input("Jak se jmenuješ? ")
-print("Ahoj, " + jmeno)
+print("Ahoj, " + jmeno) # Ahoj (input)
 ```
 **Tento kód požádá uživatele, na zadaní svého jména, a poté ho použije v pozdravu. Funkce `input()` vždy vrací řetězec, takže pokud je potřeba číslo, je nutné ho převést, třeba pomocí `int()` pro celá čísla nebo `float()` pro desetinná čísla.**
 
