@@ -45,6 +45,7 @@ print(odmocnina)  # Výstup: 4.0
 
 ## Podmínky a logické operace 🤔
 ### Podmínky
+***Podmínky v Pythonu používáme k řízení toku programu. Základní klíčové slovo je `if`, které vyhodnocuje podmínku jako pravdivou (`True`) nebo nepravdivou (`False`).***
 |Podmínka| Výzanm| Příklad | Výsledek |
 |------------|--------|-----------| ---------------
 | `==` | Je rovno| `5 == 5`|`True`|
@@ -64,7 +65,8 @@ else:
     print("x je záporné")
 ```
 
-### **Logické operace**  
+### **Logické operace**
+***Používají se k propojení více podmínek.***
 |Podmínka| Výzanm| Příklad | Výsledek |
 |------------|--------|-----------| ---------------| 
 | `and` | obě musí platit| `True and False`|`False`|
