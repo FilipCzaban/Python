@@ -1,14 +1,15 @@
 
-# Tahák na programování v Pythonu
-- [Proměnné](#promenne)
-- [Aritmetické operace](#aritmeticke-operace)
-- [Podmínky a logické operace](#podminky-a-logicke-operace)
-- [Cykly](#cykly)
-- [Funkce](#funkce)
-- [Texty](#texty)
-- [Výstupy](#vystupy)
-- [Vstupy](#vstupy)
-## Proměnné
+# Tahák na programování v Pythonu 💡
+- [Proměnné 📝](#promenne)
+- [Aritmetické operace ➗](#aritmeticke-operace)
+- [Podmínky a logické operace 🤔](#podminky-a-logicke-operace)
+- [Cykly 🔄](#cykly)
+- [Funkce 🔧](#funkce)
+- [Texty 💬](#texty)
+- [Výstupy 📤](#vystupy)
+- [Vstupy 📥](#vstupy)
+
+## Proměnné 📝
 ***Proměnné v Pythonu slouží k uchovávání hodnot, které lze během běhu programu měnit a používat v různých výpočtech nebo podmínkách.***
 
 | Datový typ | Popis | Příklad |
@@ -23,7 +24,7 @@
 | set | Množina | `numbers = {1, 2, 3}` |
 
 
-## Aritmetické operace
+## Aritmetické operace ➗
 ***Aritmetické operace jsou základní matematické operace, které zahrnují sčítání, odčítání, násobení, dělení, celočíselné dělení, zbytek po dělení a mocniny. V Pythonu se používají následující operátory:***
 ```python
 a = 10 + 5  # Sčítání
@@ -38,7 +39,7 @@ import math
 math.sqrt(9) # Odmocnina
 ```
 
-## Podmínky a logické operace
+## Podmínky a logické operace 🤔
 ### Podmínky
 |Podmínka| Výzanm| Příklad | Výsledek |
 |------------|--------|-----------| ---------------
@@ -59,7 +60,7 @@ else:
     print("x je záporné")
 ```
 
-### **Logické operace**
+### **Logické operace**  
 |Podmínka| Výzanm| Příklad | Výsledek |
 |------------|--------|-----------| ---------------| 
 | `and` | obě musí platit| `True and False`|`False`|
@@ -76,7 +77,7 @@ if a > 0 or b < 0:
     print("Alespoň jedno číslo je kladné")
 ```
 
-## Cykly
+## Cykly 🔄
 ***Cykly v Pythonu umožňují opakování kódu, dokud není splněna určitá podmínka. Existují dva hlavní typy cyklů:***
 
 **For cyklus: Používá se k opakovaní přes sekvenci (např. seznam, řetězec, rozsah) a vykonání kódu pro každý prvek v sekvenci :**
@@ -97,7 +98,7 @@ while x < 5:
 # Tento cyklus rovněž vytiskne čísla od 0 do 4.
 ``` 
 
-## Funkce
+## Funkce 🔧
 ***Funkce v Pythonu jsou bloky kódu, které provádějí určitou činnost a lze je opakovaně volat. Definují se pomocí klíčového slova  `def`, mohou přijímat argumenty a vracet hodnotu pomocí `return`.***
 ```python
 # Příklad 1
@@ -114,7 +115,7 @@ print(absolutni_hodnota(-5))  # Výstup: 5
 print(absolutni_hodnota(3))   # Výstup: 3
 ```
 
-## Texty
+## Texty 💬
 ***V Pythonu jsou texty (řetězce) reprezentovány jako datový typ `str`. Můžeme je vytvářet pomocí uvozovek (`"text"` nebo `'text'`) a poté s nimi pracovat – spojovat je, měnit jejich obsah nebo je rozdělovat.***
 ```python
 text = "Zítra, venku!"
@@ -124,23 +125,39 @@ print(text.replace("Zítra", "Potom"))  # "Potom, venku!"
 print(len(text))  #Výstup: 13 (Délka řetězce)
 ```
 
-## Výstupy
+## Výstupy 📤
 ***Výstupy v Pythonu slouží k zobrazování informací na obrazovku nebo ukládání dat do souborů. Nejčastěji se k tomu používá funkce `print()`, která vypisuje hodnoty do konzole.***
 ```python
 # Základ
 print("Výsledek je:", 42)
 
-#Příklad 1
+#Příklad 1 (proměnný)
 jmeno = "Filip"
 vek = 15
 print("Jméno:", jmeno, "| Věk:", vek) # Výstup: Jméno: Petr | Věk: 15
 
+# Příklad 2 (f_string)
+print(f"Ahoj, {jmeno}! Je ti {vek} let.")  
+# Výstup: Ahoj, Filip! Je ti 15 let.
 
-# Příklad 2
 
+# Příklad 3 (end)
+print("První část...", end=" ")
+print("Druhá část.") # Výstup: První část... Druhá část(Na druhém řádku).
+
+# Příklad 4 (sep) 
+print("Jablko", "Banán", "Hruška", sep=" - ")
+# Výstup: Jablko - Banán - Hruška
 ```
 
-## Vstupy
+## Vstupy 📥
+***Vstupy v Pythonu slouží k získávání informací od uživatele. Nejčastěji se používá funkce `input()`, která umožňuje uživateli zadat text a vrátí tento text jako řetězec.***
 ```python
 jmeno = input("Jak se jmenuješ? ")
 print("Ahoj, " + jmeno)
+```
+**Tento kód požádá uživatele, na zadaní svého jména, a poté ho použije v pozdravu. Funkce `input()` vždy vrací řetězec, takže pokud je potřeba číslo, je nutné ho převést, třeba pomocí `int()` pro celá čísla nebo `float()` pro desetinná čísla.**
+
+
+# Konec 🔚
+
