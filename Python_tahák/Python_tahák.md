@@ -14,14 +14,14 @@
 
 | Datový typ | Popis | Příklad |
 |------------|--------|-----------|
-| int | Celé číslo | `x = 10` |
-| float | Desetinné číslo | `y = 3.14` |
-| str | Řetězec | `name = "Filip"` |
-| bool | Pravda/Nepravda | `is_lower = True` |
-| list | Seznam hodnot | `numbers = [1, 2, 3]` |
-| tuple | Neměnitelný seznam | `coordinates = (4, 5)` |
-| dict | Slovník | `person = {"name": "Filip", "age": 15}` |
-| set | Množina | `numbers = {1, 2, 3}` |
+| `int` | Celé číslo | `x = 10` |
+| `float` | Desetinné číslo | `y = 3.14` |
+| `str` | Řetězec | `name = "Filip"` |
+| `bool` | Pravda/Nepravda | `is_lower = True` |
+| `list` | Seznam hodnot | `numbers = [1, 2, 3]` |
+| `tuple` | Neměnitelný seznam | `coordinates = (4, 5)` |
+| `dict` | Slovník | `person = {"name": "Filip", "age": 15}` |
+| `set` | Množina | `numbers = {1, 2, 3}` |
 
 
 ## Aritmetické operace ➗
