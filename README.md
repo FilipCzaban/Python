@@ -5,6 +5,7 @@ toto jsou náhodné a jednoduché kódy, díky kterým se snažím pracovat v py
 
 přidavám cca 3 kódy týdně
 
+Taky tady mám certifikát ze sololearnu (Python Introducction)
 
 
 
